@@ -75,7 +75,7 @@ body p {
     backface-visibility: hidden;
 }
 .flip-card-front {
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
 }
 .flip-card-back {
