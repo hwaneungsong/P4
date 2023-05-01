@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start navbar-light" style="background-color: cornflowerblue;">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/koreaflag_1944.jpeg" alt="logo" height="50">
+                </a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: black">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our_mission.html" style="color: black">Our Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="color: black">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black">
+                                More
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="kpop_history.html">History of K-Pop</a>
+                                <a class="dropdown-item" href="#">History of Korea</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+    <div class="text-center">
+        <h2>Our Mission</h2>
+        <p style="border-style: solid; border-color: black; border-width: 2px;">
+            Our mission is to inform people of South Korea and showcase the amazing things to do. 
+            There is amazing food, marketplaces, tourist attractions, and more. We are trying to bring
+            more awareness to what South Korea can offer for people visiting for the first time. 
+            <br><br>
+            We also want to spread the many wonderful things about Korean Culture. Over the past few years,
+            K-pop has grown massively world-wide and through that, Korean Culture has also been widespread.
+            We want to expand on that and give more information to people who are genuinely interested in 
+            our culture and traditions.
+        </p>
+    </div>
+</div>
+ <footer class="footer page-footer font-small text-center">
+     <div class="container">
+        <div class="row">
+            <span class="text-center" style="color: black; font-family: 'Courier New', Courier, monospace;">&copy; Hwan Eung Song, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

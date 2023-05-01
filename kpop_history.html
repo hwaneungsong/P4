@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/history.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start navbar-light" style="background-color: cornflowerblue;">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/koreaflag_1944.jpeg" height="50">
+                </a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: black">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our_mission.html" style="color: black">Our Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="color: black;">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                               style="color: black;">
+                                More
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="kpop_history.html">History of K-Pop</a>
+                                <a class="dropdown-item" href="#">History of Korea</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="row">
+        </div>
+    <div class="text-center col-sm-12">
+        <h2>History of K-Pop</h2>
+    </div>
+        <div class="col-sm-12">
+            <section id="1st_gen" style="border-color: black; border-style: solid; border-width: 2px;">
+                <h5>1<sup>st</sup> Gen</h5>
+                <img src="images/1st_gen.jpeg" alt="1st gen idol" style="height: 200px; width: 250px;">
+            </section>
+            <p>First Generation K-pop groups are those that were formed from 1990 until the early 2000's. This generation 
+                marked the birth if K-pop idol groups. Some pioneering groups of this generation are S.E.S, Sech Kies,
+                Turbo, G.O.D, Rain, BoA, H.O.T (shown in picture) and many more. The reigning aesthetic during this generation revolved mostly around
+                pop and hip-hop. They are the ones that paved the way for future artist and helped start the K-Pop craze that
+                we have today. 
+            </p>
+        </div>
+        <div class="col-sm-12">
+            <section id="2nd_gen" style="border-style: solid; border-width: 2px; border-color: black;">
+                <h5>2<sup>nd</sup> Gen</h5>
+                <img src="images/2nd_gen.webp" alt="2nd gen idol" style="height: 200px; width: 250px;">
+            </section>
+            <p>Second Generation K-Pop are groups that were formed from 2003 until around 2009 - 2010. Although the previous generation
+                started everything, the Second Generation make K-Pop more known domestically and internationally. Some well-known groups 
+                from this generation are TVXQ, Big Bang, Girl's Generation (shown in picture), 2ne1, Epik High, and more. This was when ballads 
+                and mellow love songs also started to become popular. Even with slow melodies, they always incorporated intricate choreo which 
+                is a crucial part of the industry. 
+            </p>
+        </div>
+        <div class="col-sm-12">
+            <section id="3rd_gen" style="border-style: solid; border-width: 2px; border-color: black;">
+                <h5>3<sup>rd</sup> Gen</h5>
+                <img src="images/3rd_gen.jpeg" alt="3rd gen idol" style="height: 200px; width: 250px;">
+            </section>
+            <p>Third Generation K-Pop started in around 2011 and ended in early 2018. K-pop at this point has become more creative, expressive,
+                and brave when it comes to the message of their lyrics. The music also became more modern with combinations of different 
+                genres like techno, rock, pop, and ballad. During this generation, companies also started to add different ethnicities within 
+                the groups. Some well-known groups from this generation are EXO, BTS, iKON, Red Velvet, Twice, and Blackpink (shown in picture).
+            </p>
+        </div>
+        <div class="col-sm-12">
+            <section id="4th_gen" style="border-style: solid; border-width: 2px;">
+                <h5>4<sup>th</sup> Gen</h5>
+                <img src="images/4th_gen.webp" alt="4th gen" style="height: 200px; width: 250px;">
+            </section>
+            <p>Fourth Generation K-Pop started in 2018 and is currently this generation. Currently, K-Pop has spread throughout the world and is
+                well known by many. Groups that are formed during this generation are more focused on worldwide success. They follow that path and
+                standard that was set by the previous generations and try to build on it. Some well-known groups from this current generation are Itzy,
+                (G)I-DLE, Enhypen, TXT, LOONA, and aespa (shown in the picture).
+            </p>
+        </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-center" style="color: black; font-family: 'Courier New', Courier, monospace;">&copy; Hwan Eung Song, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start navbar-light" style="background-color: cornflowerblue;">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/koreaflag_1944.jpeg" alt="logo" height="50">
+                </a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: black;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: black">Our Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="color: black">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                               style="color: black;">
+                                More
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="kpop_history.html">History of K-Pop</a>
+                                <a class="dropdown-item" href="#">History of Korea</a>
+                            </div> 
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <br>
+            <br>
+    <div class="text-center">
+        <h2>A Look into Korea</h2>
+        <h5>Hover over pictures for brief description</h5>
+    </div>
+    <div class="container-fluid home-page">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/seoul.jpeg" alt="seoul" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Seoul</h5>
+                            <p>Officially known as the Seoul Special City, it is the capital and
+                                largest metropolis of South Korea. Located along the Han River, it is
+                                the home of many UNESCO World Heritage Sites and many other things.
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/korea_jeju.jpeg" alt="jeju island" style="width: 300%; height: 300%">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Jeju-Do</h5>
+                            <p>The island lies in the Korea Strait, south of the Korean Peninsula, it is
+                                South Korea's largest island. There are many things to see on the island,
+                                like visiting Dongmun Market or going to visit ManJangGul Cave, which is
+                                a UNESCO World Heritage Site.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/busan.jpeg" alt="busan" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Busan</h5>
+                            <p>Officially known as Busan Metropolitan City, it is South Korea's second most 
+                                populous city after Seoul. It is located on the southeastern tip of the Korean
+                                Peninsula. One of the main attractions of Busan is HaeUnDae Beach. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/hangang.jpeg" alt="hangang park" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>HanGang</h5>
+                            <p>The river flows through Seoul into the Yellow Sea. There is a HanGang Park in Seoul
+                                that many people go to on nice days to have picnics. Many people ride their bike along
+                                the river or do water activites such as wakeboarding or paddle boarding.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/namsan_tower.jpeg" alt="namsan seoul tower" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>NamSan Tower</h5>
+                            <p>A communication and observation tower located on Nam Mountain in central Seoul. It is the 
+                                second highest point in Seoul and is considered a local landmark. The most popular attractions
+                                are the Love Padlocks and the Namsan Cable Car.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/seoraksan.jpeg" alt="seoraksan" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>SeoRakSan</h5>
+                            <p>The third highest mountain in South Korea, sometimes considered the backbone of South 
+                                Korea. The Dinosaur Ridge on SeoRakSan is one of Korea's cultural scenic treasures and earned
+                                its name because mountain peaks in the ridge look like the back of a spiked dinosaur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/chuncheon.jpeg" alt="chuncheon" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>ChunCheon</h5>
+                            <p>Capital of GangWon Province and located in a basin formed by the Soyang River and Han River.
+                                Many festivals take place all throughout the year in ChunCheon that many people visit. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/dmz.webp" alt="dmz" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>DMZ</h5>
+                            <p>A strip of land running across the Korean Peninsula near the 38<sup>th</sup> parallel north.
+                                The demilitarized zone is a border barrier that divides the peninsula roughly in half. It is 
+                                conisdered a tourist attraction for many and is also a big part of Korea's history.    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/gyeongju.webp" alt="gyeongju" style="width: 300%; height: 300%;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h5>Gyeongju-si</h5>
+                            <p>A coastal city in the far southeastern corner of South Korea. Gyeongju-si is known as "the museum without
+                                walls" because of the vast number of cultural properties and archaeological sites of the city.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <footer class="footer page-footer font-small text-center">
+     <div class="container">
+        <div class="row">
+            <br>
+            <span style="color: black; font-family: 'Courier New', Courier, monospace;">&copy; Hwan Eung Song, 2023 | Terms Of Use | Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
